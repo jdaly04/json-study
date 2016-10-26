@@ -39,22 +39,36 @@ As it makes sense to you please write the following in JSON format:
 
 ```json
 <!-- your answer here -->
-```
+var things = [
+  {"Owner":"Jason", "Thing":"Cat", "Name":"Mr.Kitty", "Attributes":""}
+  {"Owner":"Jason", "Thing":"Roomate1", "Name":"Dave", "Attributes":""}
+  {"Owner":"Jason", "Thing":"Roomate2", "Name":"Miller", "Attributes":""}
+  {"Owner":"Jason", "Thing":"PastResidence1", "Name":"123 Fake street", "Attributes":""}
+  {"Owner":"Jason", "Thing":"PastResidence2", "Name":"2 Muchinfo Road", "Attributes":""};
+]
 
 I forgot, my roomate Dave has two goldfish, one named Bob (he's red) and the
 other named Mr.MagicNibbles (yellow) and bites a bit. Please copy the JSON you
 already wrote and include the information about Dave's fish.
 
 ```json
-<!-- your answer here -->
-```
+
+var things = [
+  '{"Owner":"Jason", "Thing":"Cat", "Name":"Mr.Kitty", "Color":"", "Attributes":""},
+  {"Owner":"Jason", "Thing":"Roomate1", "Name":"Dave", "Color":"", "Attributes":""}
+  {"Owner":"Jason", "Thing":"Roomate2", "Name":"Miller", "Color":"", "Attributes":""}
+  {"Owner":"Jason", "Thing":"PastResidence1", "Name":"123 Fake street", "Color":"", "Attributes":""}
+  {"Owner":"Jason", "Thing":"PastResidence2", "Name":"2 Muchinfo Road", "Color":"", "Attributes":""}
+  {"Owner":"Dave", "Thing":"Golfish1", "Name":"Bob", "Color":"Red", "Attributes":""}
+  {"Owner":"Dave", "Thing":"Golfish2", "Name":"Mr.MagicNibbles", "Color":"Yellow", "Attributes":"Bites a bit"}
+]
 
 ## JSON Methods
 
 Using the JSON your wrote above, can you write a method on the JSON?
 
 ```json
-<!-- your answer here -->
+JSON cannot have methods.
 ```
 
 ## JSON Comments
@@ -62,5 +76,5 @@ Using the JSON your wrote above, can you write a method on the JSON?
 Using the JSON your wrote above, can you write a comment in the JSON?
 
 ```json
-<!-- your answer here -->
+JSON cannot have comments.
 ```
